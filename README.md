@@ -76,6 +76,9 @@ It contains several sections, such as general information about the company, ser
 # Law firm
 This is the homepage of Manes Winchester law firm. This page was made using HTML, CSS, Bootstrap.
 
+## Screenshots
+---
+
 ![Screenshot1](./lawfirm/assets/img/screenshots/1.png)
 
 ![Screenshot2](./lawfirm/assets/img/screenshots/2.png)
