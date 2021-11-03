@@ -1,0 +1,414 @@
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+     :root {
+        --font: sans-serif;
+    }
+    /* PART 1 */
+    
+    #contact-section1 {
+        background: url(../contact-img/KDS_kulyk-interior-design-studio_sophisticated-penthouse_contemporary-living-room-design_-designer-furniture_meridiani8.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 100px 0;
+    }
+    
+    .contact-container1 {
+        padding: 40px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row !important;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+    
+    #contact-twodivs {
+        display: flex;
+        margin-right: 40px;
+    }
+    
+    .contact-hr {
+        display: none;
+    }
+    
+    .contact-blocks {
+        margin-right: 80px;
+        line-height: 30px;
+    }
+    
+    .contact-blocks a {
+        text-decoration: none;
+        color: rgb(82, 81, 81);
+    }
+    
+    .contact-container1 .contact-blocks:nth-child(3) {
+        margin-right: 0 !important;
+    }
+    
+    .contact-blocks h1,
+    #field-contact h1,
+    #form-fields-contact h1 {
+        padding-bottom: 20px;
+        font: 400 25px var(--font);
+        color: rgb(71, 71, 71);
+        text-transform: uppercase;
+    }
+    
+    .contact-blocks h1:hover,
+    #field-contact h1:hover,
+    #form-fields-contact h1:hover {
+        color: brown;
+    }
+    
+    .contact-blocks p,
+    #field-contact p {
+        margin-right: 30px;
+        text-align: left;
+        color: rgb(95, 76, 76);
+        font: 400 14px var(--font);
+        line-height: 30px;
+    }
+    
+    .contact-logo-par {
+        display: flex;
+    }
+    
+    .contact-logo-par p,
+    #contact-logo-num a {
+        margin-left: 20px;
+        font: 400 14px var(--font);
+        line-height: 30px;
+    }
+    
+    #contact-logo-num a {
+        font-size: 20px;
+    }
+    
+    #contact-num-link:hover {
+        color: brown;
+    }
+    
+    .contact-logo-par i,
+    #contact-logo-num i {
+        color: brown;
+    }
+    
+    .contact-logo-par i {
+        margin-top: 8px;
+    }
+    /* PART 2 */
+    
+    #contact-map-link {
+        display: none;
+        text-transform: uppercase;
+    }
+    
+    #contact-map-link a {
+        text-decoration: none;
+        color: rgb(82, 81, 81);
+        margin-left: 5px;
+    }
+    
+    #contact-map-link i {
+        color: brown;
+    }
+    
+    #contact-map-link a:hover {
+        color: brown;
+    }
+    
+    #contact-section2 {
+        background-color: rgb(241, 241, 241);
+    }
+    
+    .contact-container2 {
+        padding: 70px 0;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .contact-form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #field-contact,
+    #contact-map {
+        max-width: 550px;
+        margin-right: 50px;
+    }
+    
+    #contact-map {
+        border-radius: 20px;
+    }
+    
+    #form-fields-contact {
+        margin-top: 20px;
+    }
+    
+    #form-fields-contact h1 {
+        margin-bottom: 25px;
+    }
+    
+    #form-fields-contact input,
+    #form-fields-contact textarea {
+        height: 50px;
+        outline: none;
+        border: none;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+    
+    #form-fields-contact textarea {
+        width: 100%;
+        height: 155px;
+        padding-top: 15px;
+    }
+    
+    #contact-input-name,
+    #contact-input-lastname {
+        width: 290px;
+        text-transform: capitalize;
+    }
+    
+    #contact-input-name {
+        margin-right: 16px;
+    }
+    
+    #contact-input-email {
+        margin: 20px 0;
+        width: 100%;
+    }
+    
+    #form-fields-contact button {
+        border: none;
+        outline: none;
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: brown;
+        margin: 36px 0 0 230px;
+        color: white;
+        font: 200 15px var(--font);
+        border-bottom: 5px solid rgb(136, 31, 31);
+    }
+    
+    #form-fields-contact button:hover {
+        background-color: rgb(224, 70, 70);
+        border-bottom: none;
+    }
+    
+    @media screen and (max-width: 576px) {
+        #contact-section1 {
+            background: url(../contact-img/BlueHost_com.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 0 0;
+        }
+        .contact-container1 {
+            flex-direction: column !important;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .contact-form {
+            flex-direction: column;
+        }
+        #contact-map {
+            display: none;
+        }
+        #form-fields-contact button {
+            margin-left: 20%;
+        }
+        .contact-blocks h1,
+        #field-contact h1,
+        #form-fields-contact h1,
+        .contact-blocks a,
+        .contact-blocks p,
+        #field-contact p {
+            color: #fff;
+        }
+        .contact-blocks h1,
+        #field-contact h1,
+        #form-fields-contact h1 {
+            margin-top: 20px;
+        }
+        .contact-blocks:nth-child(1) {
+            margin-right: 20px !important;
+        }
+        .contact-hr {
+            display: block;
+            background: #fff;
+            margin: 20px 10px;
+            width: 320px;
+        }
+        #form-fields-contact h1 {
+            color: rgb(71, 71, 71) !important;
+            margin-left: 70px;
+            margin-top: 20px;
+        }
+        #contact-input-name,
+        #contact-input-lastname {
+            width: 100%;
+            text-transform: capitalize;
+        }
+        #contact-input-name {
+            margin: 0 0 20px 0;
+        }
+        #contact-input-email {
+            margin: 20px 0;
+            width: 100%;
+        }
+        .contact-container2 {
+            padding: 70px 0;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .contact-container1 {
+            align-items: center;
+        }
+        #contact-map-link {
+            display: flex;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+        #contact-twodivs {
+            flex-direction: column;
+        }
+        .contact-blocks {
+            margin: 0 0 0 70px;
+        }
+    }
+    
+    @media screen and (min-width: 577px) and (max-width: 768px) {
+        #contact-section1 {
+            background: url(../contact-img/interior-interior-design-table-window-modern-hd-wallpaper-preview.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 0 0;
+        }
+        .contact-container1 {
+            background-color: rgba(0, 0, 0, 0.7);
+            flex-direction: column;
+            padding-top: 20px;
+        }
+        .contact-blocks h1,
+        #field-contact h1,
+        #form-fields-contact h1,
+        .contact-blocks a,
+        .contact-blocks p,
+        #field-contact p {
+            color: #fff;
+        }
+        #contact-map {
+            display: none;
+        }
+        #form-fields-contact h1 {
+            color: rgb(71, 71, 71) !important;
+            margin-left: 18%;
+        }
+        .contact-container1 {
+            flex-direction: column !important;
+        }
+        .contact-blocks {
+            margin-top: 40px;
+        }
+        .contact-hr:nth-child(1) {
+            transform: rotate(90deg);
+            width: 50px;
+        }
+        #contact-twodivs {
+            justify-content: space-between;
+        }
+        .contact-container2 {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 700px;
+        }
+        #contact-input-name,
+        #contact-input-lastname {
+            width: 44.7%;
+        }
+        #contact-input-name {
+            margin-right: 3%;
+        }
+        #contact-input-email,
+        #form-fields-contact textarea {
+            width: 93%;
+        }
+        #contact-map-link {
+            display: flex;
+            margin-bottom: 40px;
+            justify-content: center;
+        }
+    }
+    
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+        #contact-map {
+            width: 700px;
+            height: 700px;
+            margin-top: 40px;
+        }
+        #contact-section1 {
+            background: url(../contact-img/unnamed.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* padding: 0 0; */
+        }
+        .contact-container1 {
+            background-color: rgba(0, 0, 0, 0.5);
+            flex-direction: column !important;
+            padding-top: 20px;
+        }
+        .contact-blocks h1,
+        #field-contact h1,
+        #form-fields-contact h1,
+        .contact-blocks a,
+        .contact-blocks p,
+        #field-contact p {
+            color: #fff;
+        }
+        #form-fields-contact h1 {
+            color: rgb(71, 71, 71) !important;
+            margin-left: 24%;
+        }
+        .contact-form {
+            flex-direction: column-reverse;
+            align-items: center;
+            max-width: 769px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #contact-input-name,
+        #contact-input-lastname {
+            width: 44.7%;
+            margin-left: 3%;
+        }
+        #contact-input-name {
+            margin-right: 0.3%;
+        }
+        #contact-input-email,
+        #form-fields-contact textarea {
+            width: 93%;
+            margin-left: 3%;
+        }
+    }
+    
+    @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        #contact-input-name,
+        #contact-input-lastname {
+            width: 44.7%;
+        }
+        #contact-input-name {
+            margin-right: 3%;
+        }
+        #contact-input-email,
+        #form-fields-contact textarea {
+            width: 93%;
+        }
+    }
